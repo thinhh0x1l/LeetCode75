@@ -4,6 +4,7 @@ public class _374_GuessNumberHigherorLower {
     int guess(int num){
         return 1;
     }
+    /** Solved **/
     public int guessNumber(int n) {
         int left = 1;
         while(left < n){
@@ -15,4 +16,5 @@ public class _374_GuessNumberHigherorLower {
         }
         return left;
     }
+    /** Solved **/
 }
